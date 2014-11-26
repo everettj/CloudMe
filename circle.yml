@@ -1,0 +1,5 @@
+dependencies:
+  pre:
+    - curl -s get.gvmtool.net | bash
+    - source ~/.gvm/bin/gvm-init.sh
+    - gvm install grails
