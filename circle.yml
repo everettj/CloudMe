@@ -3,3 +3,7 @@ dependencies:
     - curl -s get.gvmtool.net | bash
     - source ~/.gvm/bin/gvm-init.sh
     - printf 'Y\n' | gvm install grails 2.4.4
+    
+test:
+  override:
+    - grails test-app
