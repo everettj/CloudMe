@@ -2,4 +2,4 @@ dependencies:
   pre:
     - curl -s get.gvmtool.net | bash
     - source ~/.gvm/bin/gvm-init.sh
-    - gvm install grails
+    - printf 'Y\n' | gvm install grails 2.4.4
