@@ -2,7 +2,7 @@ dependencies:
   pre:
     - curl -s get.gvmtool.net | bash
     - source ~/.gvm/bin/gvm-init.sh
-    - printf 'Y\n' | gvm install grails 2.4.4
+    - printf 'Y\n' | gvm install grails 2.4.3
     
 test:
   override:
